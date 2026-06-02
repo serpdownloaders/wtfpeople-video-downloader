@@ -1,0 +1,206 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/wtfpeople-downloader",
+  "serply_link": "https://serp.ly/wtfpeople-downloader",
+  "app_name": "Wtfpeople Video Downloader",
+  "short_description": "Download & Save Wtfpeople Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Save WTFPeople videos without hunting through page source or copying URLs into third-party sites. This extension detects media exposed by supported WTFPeople video pages and presents available download options through a clean browser workflow. Open a video, start playback, and let the extension handle the rest.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/wtfpeople-downloader-fullscreen-01-d0d771d4ca.webp",
+    "https://apps.serp.co/media/optimized-products/wtfpeople-downloader-fullscreen-02-a5188234cb.webp",
+    "https://apps.serp.co/media/optimized-products/wtfpeople-downloader-fullscreen-03-1c25c24bd8.webp",
+    "https://apps.serp.co/media/optimized-products/wtfpeople-downloader-fullscreen-04-44e1c4af0b.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a WTFPeople video?",
+      "answer": "Open a supported WTFPeople video page, start playback if needed, then use the extension popup to detect and download available media."
+    },
+    {
+      "question": "What formats can it save?",
+      "answer": "The extension handles exposed direct video files and stream candidates such as MP4 or HLS when they are available on the page."
+    },
+    {
+      "question": "Are all qualities guaranteed?",
+      "answer": "No. Quality options depend on what WTFPeople exposes on the page or through the player. Not all videos have multiple quality levels."
+    },
+    {
+      "question": "Is this available in browser stores?",
+      "answer": "Store listings are not yet confirmed. The extension is currently distributed through GitHub Releases."
+    },
+    {
+      "question": "Is this release-ready?",
+      "answer": "The extension is a generated candidate with a verified seed URL. It still needs live extraction QA before being considered release-ready."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Detects media directly from supported WTFPeople video pages",
+    "Presents available format and quality options when detected",
+    "Downloads directly through your browser to MP4 files",
+    "Works with Chrome, Edge, Brave, and Firefox browsers",
+    "Includes a trial so you can test before committing",
+    "Detects media from supported WTFPeople video pages",
+    "Includes 3 free downloads to test the workflow",
+    "Email sign-in with secure one-time password verification",
+    "Clean browser-based workflow without page source hunting",
+    "Focused on WTFPeople video pages with verified host matching"
+  ],
+  "content": {
+    "why": [
+      "WTFPeople video pages do not always expose a clean right-click-save option. The final media URL is often hidden behind player initialization, making it difficult for viewers to save content for offline viewing. Generic downloader sites can return noisy results filled with ads, previews, or thumbnail assets instead of the actual video.",
+      "This extension is built around WTFPeople video pages with host matching for wtfpeople.com, www.wtfpeople.com, and related subdomains. Instead of digging through page source or relying on copy-paste downloader sites, you get a browser-based workflow that inspects the page for playable media candidates and presents the available options directly in your browser."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Wtfpeople and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the extension from the latest GitHub release for your browser.",
+      "Open your browser and navigate to a supported WTFPeople video page.",
+      "Start the video playing so the page exposes the media stream.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "Wait for the extension to detect available media from the page.",
+      "Review the detected format and quality options if multiple are shown.",
+      "Select your preferred quality and click the download button.",
+      "Wait for the download to complete and save the MP4 file to your device."
+    ],
+    "supported_formats": [
+      "Input: Supported video sources exposed by WTFPeople pages, including direct media files and stream candidates",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "WTFPeople viewers who want to save videos for offline viewing",
+      "Users who prefer browser controls over page-source inspection",
+      "People who want to avoid copy-paste downloader sites with ads",
+      "Anyone testing a generated extension candidate with a verified seed URL"
+    ],
+    "use_cases": [
+      "Save a WTFPeople video for offline viewing when you have limited internet access",
+      "Archive favorite videos to your local device for personal backup",
+      "Watch downloaded videos on devices without a stable internet connection",
+      "Test the extension workflow using the verified seed URL for QA purposes",
+      "Review detected format options when the page exposes multiple quality levels"
+    ],
+    "troubleshooting": [
+      "No media detected after opening the popup Start the video playing first. Some pages only expose the media stream after the player initializes.",
+      "Download starts but the file is incomplete Check your internet connection. Large video files require a stable connection from start to finish.",
+      "Extension does not appear on the toolbar Make sure you installed the correct build for your browser. Check the latest release page for your specific browser version.",
+      "Quality options are limited The extension can only present formats and qualities that the WTFPeople page actually exposes. Not all videos have multiple quality levels available.",
+      "Download button is grayed out The extension may still be detecting media from the page. Wait a few seconds or try refreshing the video page and starting playback again."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Wtfpeople page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Start video playback if no media is detected immediately",
+      "Quality and format options depend on what the WTFPeople page exposes"
+    ],
+    "about": [
+      "WTFPeople is a video platform featuring adult content. This extension provides a browser-based workflow for detecting and downloading videos from supported WTFPeople pages, making it easier to save content for offline viewing without digging through page source or using third-party downloader sites."
+    ]
+  },
+  "serpx_link": "https://serpx.link/wtfpeople-downloader",
+  "github_topics": [
+    "wtfpeople-download",
+    "wtfpeople-downloader",
+    "wtfpeople-video-downloader",
+    "wtfpeople-video-downloader-online",
+    "wtfpeople-video-downloader-mac",
+    "wtfpeople-video-downloader-window",
+    "wtfpeople-video-downloader-free",
+    "wtfpeople-video-downloader-extension",
+    "wtfpeople-video-downloader-app",
+    "wtfpeople-video-downloader-chrome",
+    "wtfpeople-video-downloader-from-url",
+    "how-to-download-wtfpeople-videos",
+    "how-to-download-wtfpeople-videos-mac",
+    "how-to-download-wtfpeople-videos-windows",
+    "how-to-download-wtfpeople-videos-online",
+    "how-to-download-wtfpeople-videos-free",
+    "how-to-download-from-wtfpeople",
+    "how-to-download-videos-from-wtfpeople",
+    "download-wtfpeople-videos",
+    "wtfpeople-video-tutorial",
+    "save-wtfpeople-videos",
+    "wtfpeople-video-content-saver",
+    "how-to-download-wtfpeople-videos-for-free"
+  ],
+  "hashtags": [
+    "#WtfpeopleDownload",
+    "#WtfpeopleDownloader",
+    "#WtfpeopleVideoDownloader",
+    "#WtfpeopleVideoDownloaderOnline",
+    "#WtfpeopleVideoDownloaderMac",
+    "#WtfpeopleVideoDownloaderWindow",
+    "#WtfpeopleVideoDownloaderFree",
+    "#WtfpeopleVideoDownloaderExtension",
+    "#WtfpeopleVideoDownloaderApp",
+    "#WtfpeopleVideoDownloaderChrome",
+    "#WtfpeopleVideoDownloaderFromURL",
+    "#HowToDownloadWtfpeopleVideos",
+    "#HowToDownloadWtfpeopleVideosMac",
+    "#HowToDownloadWtfpeopleVideosWindows",
+    "#HowToDownloadWtfpeopleVideosOnline",
+    "#HowToDownloadWtfpeopleVideosFree",
+    "#HowToDownloadFromWtfpeople",
+    "#HowToDownloadVideosFromWtfpeople",
+    "#DownloadWtfpeopleVideos",
+    "#WtfpeopleVideoTutorial",
+    "#SaveWtfpeopleVideos",
+    "#WtfpeopleVideoContentSaver",
+    "#HowToDownloadWtfpeopleVideosForFree"
+  ],
+  "youtube_tags": [
+    "Wtfpeople Download",
+    "Wtfpeople Downloader",
+    "Wtfpeople Video Downloader",
+    "Wtfpeople Video Downloader Online",
+    "Wtfpeople Video Downloader Mac",
+    "Wtfpeople Video Downloader Window",
+    "Wtfpeople Video Downloader Free",
+    "Wtfpeople Video Downloader Extension",
+    "Wtfpeople Video Downloader App",
+    "Wtfpeople Video Downloader Chrome",
+    "Wtfpeople Video Downloader From URL",
+    "How To Download Wtfpeople Videos",
+    "How To Download Wtfpeople Videos Mac",
+    "How To Download Wtfpeople Videos Windows",
+    "How To Download Wtfpeople Videos Online",
+    "How To Download Wtfpeople Videos Free",
+    "How To Download From Wtfpeople",
+    "How To Download Videos From Wtfpeople",
+    "Download Wtfpeople Videos",
+    "Wtfpeople Video Tutorial",
+    "Save Wtfpeople Videos",
+    "Wtfpeople Video Content Saver",
+    "How To Download Wtfpeople Videos For Free"
+  ]
+}
